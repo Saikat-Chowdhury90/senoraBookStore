@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Palatino";
+    src: url("https://www.download-free-fonts.com/details/88338/palatino-linotype");
+}
 *{
     margin: 0;
     padding: 0;
@@ -21,6 +25,11 @@
     text-align: center;
     height: 100vh;
     
+}
+.landing-p > h1{
+    font-family: "Palatino";
+    font-size: 5rem;
+    color: yellow;
 }
 .g-head h2{
     text-align: center;
@@ -49,15 +58,44 @@
   }
   
   .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid black;
+   
+    
     text-align: center;
     font-size: 30px;
     width: 200px;
-    height: 250px;
+    height: 300px;
   }
+  .grid-container >div >img{
+      width: 200px;
+      height: 300px;
+  }
+  .grid-container > div > p{
+      font-family: 'Palatino';
+      font-size: 1.5rem;
+      line-height: 1.5em;
+  }
+  .grid-container>div>button{
+      font-size: 20px;
+      font-family: sans-serif;
+      padding: 8px;
+      
+  }
+  .hr-book{
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(255, 255, 0);
+    
+    height: 2px;
+    border-width:0px !important;
+    color:rgb(255, 255, 0);
 
+  }
   .contact-details{
       margin-top: 5%;
       text-align: center;
+  }
+  .inverted-comma{
+      color: white;
+      font-family: 'EB Garamond', serif;
+      font-size: 6rem;
   }
