@@ -7,6 +7,12 @@
     padding: 0;
     scroll-behavior: smooth;
 }
+
+.app{
+    display: flex;
+   
+   
+}
 .nav-item{
     padding-left: 15px;
 }
@@ -52,14 +58,61 @@
     display: grid;
     grid-template-columns: auto auto auto ;
     gap: 5px;
-    
+   
     padding: 10px;
     margin-left: 12%;
+    
+  }
+
+  @media screen and (max-width:426px)  {
+      .press{
+          height:auto;
+      }
+      .grid-container{
+          display: flex;
+          flex-wrap: nowrap;
+          justify-content: space-between;
+          overflow-x: scroll;
+          height: 56vh;
+          margin-left: 0;
+      }
+      .grid-container > div{
+          justify-content: space-between;
+          padding: 5px;
+      }
+      .landing-p{
+          top: 18%;
+          left: 75%;
+          
+      }
+      .landing-p > h1{
+        font-size: 150px;
+      }
+      .landing-p > p{
+          font-size: 20px;
+      }
+      .news{
+          height: 100vh;
+      }
+      .mobile-grid{
+          display: flex;
+          flex-wrap: wrap;
+         
+          justify-items: center;
+          overflow: hidden;
+          height: 100vh;
+      }
+     .bio{
+         height: auto !important;
+     }
+     .bio-grid > .grid-container > div{
+        
+     }
   }
   
   .grid-container > div {
    
-    
+   
     text-align: center;
     font-size: 30px;
     width: 200px;
