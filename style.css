@@ -12,6 +12,11 @@
 .nav-item{
     padding-left: 15px;
 }
+.author-img{
+    position: relative;
+    top: 10%;
+    left: 15%;
+}
 .landing-cont{
     background-image: url("https://static.wixstatic.com/media/08fe21_10aae2678a2e4e8995c6fd05810f5942.jpg/v1/fill/w_1436,h_1152,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/08fe21_10aae2678a2e4e8995c6fd05810f5942.jpg");
     
@@ -22,11 +27,63 @@
     background-position: center;
 }
 .landing-p{
-    top: 50%;
-    left: 32%;
+    top: 30%;
+    left: 52%;
     text-align: center;
     height: 100vh;
     
+}
+.x-social-global{
+    position: relative;
+    left: 0;
+    top: 5%;
+    height: 100px;
+}
+.x-social-global a{
+    color: yellow;
+    padding: 10px;
+}
+.contact-form form input{
+    padding: 10px;
+    margin-bottom: 2%;
+}
+.social{
+    margin-bottom: 2%;
+}
+.events-details{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.release{
+    width:50%;
+    
+    
+}
+.cover-1{
+    position: relative;
+    height: 320px;
+    width: 250px;
+   
+    left: 5%;
+    transform: rotate(-10deg);
+    background-image: url(./images/book-cover.png);
+    background-size: cover;
+}
+.cover-2{
+    position: relative;
+    height: 320px;
+    width: 250px;
+   
+    left: 20%;
+    top: -310px;
+    transform: rotate(10deg);
+    background-image: url(./images/book-cover-2.png);
+    background-size: cover;
+}
+.social a{
+    color: rgb(226, 226, 0);
+    padding: 10px;
 }
 .landing-p > h1{
     font-family: "Palatino";
@@ -84,8 +141,13 @@
           left: 1%;
           
       }
+      .events-details{
+          overflow: hidden;
+      }
      
-      
+      .author-img{
+          display: none;
+      }
       .news{
           height: 100vh;
       }
@@ -127,8 +189,31 @@
          margin-top: 5%;
          display: block;
      }
+     .events-details{
+         display: block;
+     }
+     .release .vi{
+         display: none;
+     }
+     .cover-image{
+         position: relative;
+         left: 6%;
+         top: 65%;
+         padding-top: 8em;
+     }
+     .events-details button{
+        position: relative;
+        top: -15rem;
+        left: 45%;
+        width: 100% !important;
+     }
+     .release-invi{
+         display: block;
+     }
   }
-  
+  .release-invi{
+      display: none;
+  }
   .grid-container > div {
    
    
